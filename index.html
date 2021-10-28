@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="text-animation/style.css">
+    <title>Text animation</title>
+</head>
+  <style> 
+    body{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 9em;
+    font-family: sans-serif;
+    text-shadow: 10px 10px 0px #002c3e,
+                 15px 15px 0px #e601c0,
+                 20px 20px 0px #e9019a,
+                 25px 25px 0px #f40468,
+                 45px 45px 10px #f79098;
+    color: transparent;
+    cursor: pointer;
+    -webkit-text-stroke : 4px #d6f4f4;
+    transition: all 0.5s;
+}
+h1:hover{
+    text-shadow: none;
+}
+  </style>
+<body>
+    <div class="text">
+        <h1>TEXT</h1>
+    </div>
+</body>
+</html>
